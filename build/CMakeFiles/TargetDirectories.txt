@@ -1,0 +1,8 @@
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/Thread.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/bigboy.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/comOpener.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/mulithread.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/myGuy.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/threadPlay.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL/Desktop/cc++/build/CMakeFiles/ZERO_CHECK.dir

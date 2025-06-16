@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C600F98C-B962-3748-94D2-00DC00AE42CC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\Desktop\cc++\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL/Desktop/cc++/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/DELL/Desktop/cc++ -BC:/Users/DELL/Desktop/cc++/build --check-stamp-file C:/Users/DELL/Desktop/cc++/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL\Desktop\cc++\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL/Desktop/cc++/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/DELL/Desktop/cc++ -BC:/Users/DELL/Desktop/cc++/build --check-stamp-file C:/Users/DELL/Desktop/cc++/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL\Desktop\cc++\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL/Desktop/cc++/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/DELL/Desktop/cc++ -BC:/Users/DELL/Desktop/cc++/build --check-stamp-file C:/Users/DELL/Desktop/cc++/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL\Desktop\cc++\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL/Desktop/cc++/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/DELL/Desktop/cc++ -BC:/Users/DELL/Desktop/cc++/build --check-stamp-file C:/Users/DELL/Desktop/cc++/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;C:\Users\DELL\Desktop\cc++\build\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL\Desktop\cc++\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\ZERO_CHECK.vcxproj">
+      <Project>{ABAA18A4-1ED1-3622-BF74-451696FF921A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\Thread.vcxproj">
+      <Project>{4543E368-588E-3EC6-88E9-C61DD3CF9D38}</Project>
+      <Name>Thread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\bigboy.vcxproj">
+      <Project>{24E79D80-07C3-3758-A987-FA193D19C7C4}</Project>
+      <Name>bigboy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\comOpener.vcxproj">
+      <Project>{ECB8E303-FC48-3235-B78A-831AD225A5ED}</Project>
+      <Name>comOpener</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\mulithread.vcxproj">
+      <Project>{75541449-8E11-3D7D-966A-072FC6BC610C}</Project>
+      <Name>mulithread</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\myGuy.vcxproj">
+      <Project>{5F671A9D-99CB-351E-9AA5-B58AF9C403F0}</Project>
+      <Name>myGuy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL\Desktop\cc++\build\threadPlay.vcxproj">
+      <Project>{8882FA58-56E7-3029-9970-3BCB02863F9D}</Project>
+      <Name>threadPlay</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
